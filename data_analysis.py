@@ -71,3 +71,6 @@ print(survival_rate_by_sex)  # Print the survival rates by sex
 survival_rate_by_class = titanic.groupby('class')['survived'].mean()  # Group by class and calculate the mean survival rate for each group
 print('Survival Rate by Class:')  # Print a heading
 print(survival_rate_by_class)  # Print the survival rates by class
+
+
+
